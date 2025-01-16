@@ -1,4 +1,4 @@
-baseURL = "https://lescobedop.github.io/greenstreetholding-website/" 
+baseURL = "https://greenstreetholdings-dev.github.io/greenstreetholding-website/" 
 languageCode = "en-us" 
 title = "Greenstreetholding Website" 
 theme = "hero"
