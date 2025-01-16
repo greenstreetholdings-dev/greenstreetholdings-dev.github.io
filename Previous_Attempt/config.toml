@@ -1,4 +1,0 @@
-baseURL = "https://greenstreetholdings-dev.github.io/"  # Adjust if you prefer a different base URL
-languageCode = "en-us"
-title = "Greenstreetholding Website"
-theme = "hero"
