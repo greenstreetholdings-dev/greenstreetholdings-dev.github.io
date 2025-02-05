@@ -62,6 +62,16 @@ const translations = {
     carolDescription:
       "Carol Burga is Co-founder and General Partner at Green Street Holdings, where she leads impact investment initiatives and channels her expertise to create sustainable and transformative opportunities. As a published author and advocate for responsible investment, Carol plays a pivotal role in shaping the firm’s vision and fostering partnerships that drive meaningful change. With over 15 years of experience empowering Indigenous and local communities in forest nations, Carol has built a reputation as a trusted expert in the Amazon and forestry communities across Southeast Asia and Africa. She holds a Master’s degree in Forestry and Indigenous Peoples, combining scientific knowledge with practical solutions to drive sustainable development and environmental stewardship. Currently, Carol facilitates stakeholder engagement for jurisdictional REDD+ programs worldwide through her role at Emergent, promoting inclusive partnerships for impactful climate solutions.",
     contactButton: "Contact Us",
+
+    // Contact Section
+    contactHeading: "Contact",
+    contactSubheading: "We offer a free consultation.",
+    contactEmailLabel: "Email:",
+    contactBusinessHoursHeading: "Business Hours",
+    contactDays: "Monday to Friday",
+    contactStartTime: "8:30am",
+    contactSeparator: "-",
+    contactEndTime: "5:00pm",
   },
   es: {
     // Spanish for index.html
@@ -118,6 +128,16 @@ const translations = {
     carolDescription:
       "Carol Burga es cofundadora y socia general de Green Street Holdings, donde lidera iniciativas de inversión de impacto y canaliza su experiencia para crear oportunidades sostenibles y transformadoras. Como autora publicada y defensora de la inversión responsable, Carol juega un papel fundamental en la configuración de la visión de la firma y en el fomento de asociaciones que impulsan cambios significativos. Con más de 15 años de experiencia empoderando a comunidades indígenas y locales en naciones forestales, Carol se ha ganado una reputación como una experta de confianza en la Amazonía y en comunidades forestales en el sudeste asiático y África. Posee una maestría en Naciones Forestales y Pueblos Indígenas, combinando conocimientos científicos con soluciones prácticas para impulsar el desarrollo sostenible y la gestión ambiental. Actualmente, Carol facilita la participación de las partes interesadas en programas jurisdiccionales de REDD+ en todo el mundo a través de su rol en Emergent, promoviendo asociaciones inclusivas para soluciones climáticas impactantes.",
     contactButton: "Contáctenos",
+
+    //Contact Section
+    contactHeading: "Contacto",
+    contactSubheading: "Ofrecemos una consulta gratuita.",
+    contactEmailLabel: "Correo Electrónico:",
+    contactBusinessHoursHeading: "Horario de Atención",
+    contactDays: "Lunes a Viernes",
+    contactStartTime: "8:30am",
+    contactSeparator: "-",
+    contactEndTime: "5:00pm",
   },
 };
 
@@ -201,7 +221,30 @@ function setLanguage(lang) {
   // Button (about.html)
   const contactButton = document.querySelector(".services-button a");
   if (contactButton) contactButton.innerText = translations[lang].contactButton;
+
+// Contact Section (contact.html) - CORRECTED
+  const contactHeading = document.querySelector(".contact-heading");
+  const contactSubheading = document.querySelector(".contact-subheading");
+  const contactEmailLabel = document.querySelector(".contact-email-label"); // Select the <p>
+  const contactBusinessHoursHeading = document.querySelector(".contact-business-hours-heading");
+  const contactDays = document.querySelector(".contact-days");
+  const contactStartTime = document.querySelector(".contact-start-time");
+  const contactSeparator = document.querySelector(".contact-separator");
+  const contactEndTime = document.querySelector(".contact-end-time");
+
+  if (contactHeading) contactHeading.innerText = translations[lang].contactHeading;
+  if (contactSubheading) contactSubheading.innerText = translations[lang].contactSubheading;
+  if (contactEmailLabel) { // Check if the element exists
+    contactEmailLabel.innerText = translations[lang].contactEmailLabel; // Set the text 
+  }
+  if (contactBusinessHoursHeading) contactBusinessHoursHeading.innerText = translations[lang].contactBusinessHoursHeading;
+  if (contactDays) contactDays.innerText = translations[lang].contactDays;
+  if (contactStartTime) contactStartTime.innerText = translations[lang].contactStartTime;
+  if (contactSeparator) contactSeparator.innerText = translations[lang].contactSeparator;
+  if (contactEndTime) contactEndTime.innerText = translations[lang].contactEndTime;
+
 }
+
 
 
 // Set Default Language
