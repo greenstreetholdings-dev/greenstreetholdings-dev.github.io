@@ -140,7 +140,7 @@ function setLanguage(lang) {
 
   // Services Section (index.html)
   const servicesTitle = document.querySelector(".services-title");
-  const servicesHeading = document.querySelector(".service-head h1");
+  const servicesHeading = document.querySelector(".services-heading"); // Updated selector
   if (servicesTitle) servicesTitle.innerText = translations[lang].servicesTitle;
   if (servicesHeading) servicesHeading.innerText = translations[lang].servicesHeading;
 
@@ -177,8 +177,8 @@ function setLanguage(lang) {
   if (footerEmail) footerEmail.innerText = translations[lang].footerEmail;
 
   // About Section (about.html)
-  const aboutTitle = document.querySelector(".about-section .service-head h1"); // More specific
-  const aboutSubheading = document.querySelector(".about-section .service-head p");
+  const aboutTitle = document.querySelector(".about-heading"); // Updated selector
+  const aboutSubheading = document.querySelector(".service-head p");
   if (aboutTitle) aboutTitle.innerText = translations[lang].aboutTitle;
   if (aboutSubheading) aboutSubheading.innerText = translations[lang].aboutSubheading;
 
@@ -203,6 +203,7 @@ function setLanguage(lang) {
   if (contactButton) contactButton.innerText = translations[lang].contactButton;
 }
 
+
 // Set Default Language
 setLanguage("en");
 
@@ -213,3 +214,6 @@ if (languageSwitcher) {
     setLanguage(e.target.value);
   });
 }
+
+
+
