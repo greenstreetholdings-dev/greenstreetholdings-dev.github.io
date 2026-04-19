@@ -45,6 +45,11 @@ const translations = {
       "Ready to take your business to the next level? Contact us today to explore how Green Street Holdings can help you achieve your goals.",
     differenceButton: "Contact Us",
 
+    // Nav
+    navAbout: "ABOUT",
+    navServices: "SERVICES",
+    navContact: "CONTACT",
+
     // Footer
     footerText: "2024 Green Street Holdings. All Rights Reserved.",
     footerEmail: "info@greenstreet-holding.com",
@@ -123,6 +128,11 @@ const translations = {
       "¿Listo para llevar su negocio al siguiente nivel? Contáctenos hoy para explorar cómo Green Street Holdings puede ayudarte a alcanzar sus objetivos.",
     differenceButton: "Contáctenos",
 
+    // Nav
+    navAbout: "SOBRE NOSOTROS",
+    navServices: "SERVICIOS",
+    navContact: "CONTACTO",
+
     // Footer
     footerText: "2024 Green Street Holdings. Todos los derechos reservados.",
     footerEmail: "info@greenstreet-holding.com",
@@ -167,6 +177,14 @@ const translations = {
 
 function setLanguage(lang) {
   console.log(`Setting language to: ${lang}`);
+
+  // Nav links (all pages)
+  const navAbout = document.querySelector('a[href="./about.html"]');
+  const navServices = document.querySelector('a[href="./service.html"]');
+  const navContact = document.querySelector('a[href="./contact.html"]');
+  if (navAbout) navAbout.innerText = translations[lang].navAbout;
+  if (navServices) navServices.innerText = translations[lang].navServices;
+  if (navContact) navContact.innerText = translations[lang].navContact;
 
   // Hero Section (index.html)
   const heroTitle = document.querySelector(".hero-content h1");

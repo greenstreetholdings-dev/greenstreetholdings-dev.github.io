@@ -210,13 +210,22 @@ td:nth-child(4) {
   text-align: center;
 }
 
+.contact-img {
+  text-align: center;
+  margin-top: 40px;
+}
+
 .contact-img img {
-  width: 100%;
-  margin-top: 20px;
+  width: 50%;
+  max-width: 500px;
+  border-radius: 8px;
 }
 
 .contact-form-section {
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-form-heading {
@@ -224,12 +233,15 @@ td:nth-child(4) {
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  width: 100%;
   max-width: 600px;
 }
 
