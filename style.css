@@ -216,8 +216,8 @@ td:nth-child(4) {
 }
 
 .contact-img img {
-  width: 50%;
-  max-width: 500px;
+  width: 25%;
+  max-width: 250px;
   border-radius: 8px;
 }
 
