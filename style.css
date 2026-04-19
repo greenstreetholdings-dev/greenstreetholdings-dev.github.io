@@ -216,13 +216,14 @@ td:nth-child(4) {
 }
 
 .contact-img img {
-  width: 25%;
-  max-width: 250px;
+  width: 60%;
+  max-width: 600px;
   border-radius: 8px;
 }
 
 .contact-form-section {
   margin-top: 40px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
