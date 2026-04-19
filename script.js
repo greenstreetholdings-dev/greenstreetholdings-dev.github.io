@@ -72,6 +72,18 @@ const translations = {
     contactStartTime: "8:30am",
     contactSeparator: "-",
     contactEndTime: "5:00pm",
+
+    // Contact Form
+    contactFormHeading: "Send us a message",
+    contactFormNameLabel: "Name",
+    contactFormNamePlaceholder: "Your name",
+    contactFormEmailLabel: "Email",
+    contactFormEmailPlaceholder: "your@email.com",
+    contactFormCompanyLabel: "Company",
+    contactFormCompanyPlaceholder: "Your company (optional)",
+    contactFormMessageLabel: "Message",
+    contactFormMessagePlaceholder: "Tell us about your business...",
+    contactFormSubmit: "Send Message",
   },
   es: {
     // Spanish for index.html
@@ -138,6 +150,18 @@ const translations = {
     contactStartTime: "8:30am",
     contactSeparator: "-",
     contactEndTime: "5:00pm",
+
+    // Contact Form
+    contactFormHeading: "Envíanos un mensaje",
+    contactFormNameLabel: "Nombre",
+    contactFormNamePlaceholder: "Tu nombre",
+    contactFormEmailLabel: "Correo electrónico",
+    contactFormEmailPlaceholder: "tu@correo.com",
+    contactFormCompanyLabel: "Empresa",
+    contactFormCompanyPlaceholder: "Tu empresa (opcional)",
+    contactFormMessageLabel: "Mensaje",
+    contactFormMessagePlaceholder: "Cuéntanos sobre tu negocio...",
+    contactFormSubmit: "Enviar mensaje",
   },
 };
 
@@ -242,6 +266,29 @@ function setLanguage(lang) {
   if (contactStartTime) contactStartTime.innerText = translations[lang].contactStartTime;
   if (contactSeparator) contactSeparator.innerText = translations[lang].contactSeparator;
   if (contactEndTime) contactEndTime.innerText = translations[lang].contactEndTime;
+
+  // Contact Form (contact.html)
+  const contactFormHeading = document.querySelector(".contact-form-heading");
+  const nameLabel = document.querySelector("label[for='name']");
+  const nameInput = document.getElementById("name");
+  const emailLabel = document.querySelector("label[for='email']");
+  const emailInput = document.getElementById("email");
+  const companyLabel = document.querySelector("label[for='company']");
+  const companyInput = document.getElementById("company");
+  const messageLabel = document.querySelector("label[for='message']");
+  const messageInput = document.getElementById("message");
+  const submitBtn = document.querySelector(".contact-submit");
+
+  if (contactFormHeading) contactFormHeading.innerText = translations[lang].contactFormHeading;
+  if (nameLabel) nameLabel.innerText = translations[lang].contactFormNameLabel;
+  if (nameInput) nameInput.placeholder = translations[lang].contactFormNamePlaceholder;
+  if (emailLabel) emailLabel.innerText = translations[lang].contactFormEmailLabel;
+  if (emailInput) emailInput.placeholder = translations[lang].contactFormEmailPlaceholder;
+  if (companyLabel) companyLabel.innerText = translations[lang].contactFormCompanyLabel;
+  if (companyInput) companyInput.placeholder = translations[lang].contactFormCompanyPlaceholder;
+  if (messageLabel) messageLabel.innerText = translations[lang].contactFormMessageLabel;
+  if (messageInput) messageInput.placeholder = translations[lang].contactFormMessagePlaceholder;
+  if (submitBtn) submitBtn.innerText = translations[lang].contactFormSubmit;
 
 }
 
