@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /.git/
+Disallow: /.github/
+
+Sitemap: https://greenstreet-holding.com/sitemap.xml
