@@ -1,103 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us — Green Street Holdings</title>
-    <meta name="description" content="Get in touch with Green Street Holdings. Reach out to explore partnership opportunities and learn how we can help grow your business." />
-    <link rel="canonical" href="https://greenstreet-holding.com/contact.html" />
-    <meta property="og:title" content="Contact — Green Street Holdings" />
-    <meta property="og:description" content="Connect with Green Street Holdings to discuss your business growth opportunities." />
-    <meta property="og:url" content="https://greenstreet-holding.com/contact.html" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://greenstreet-holding.com/images/GHS_LogoHouse.png" />
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8J7JKD12YC"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-8J7JKD12YC');
-    </script>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Green Street Holdings</title>
+  <meta name="description" content="Get in touch with Green Street Holdings. Reach out to explore partnership opportunities and learn how we can help grow your business across Latin America." />
+  <link rel="canonical" href="https://greenstreet-holding.com/contact.html" />
+  <meta property="og:title" content="Contact — Green Street Holdings" />
+  <meta property="og:description" content="Connect with Green Street Holdings to discuss your business growth opportunities." />
+  <meta property="og:url" content="https://greenstreet-holding.com/contact.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://greenstreet-holding.com/images/GHS_LogoHouse.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/site.css?v=9" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
 </head>
 <body>
 
-    <header>
-        <nav class="navbar">
-          <div class="logo">
-            <a href="./index.html"> <img width="80px" src="./images/GHS_LogoHouse.png" alt=""></a>
-            <img class="green-logo" src="./images/GHS_Logo_Words.png" alt=""/>
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="bar">
+      <a class="logo" href="./index.html" aria-label="Green Street Holdings — home">
+        <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="10.5" y="6.5" width="19" height="29.5" stroke="currentColor" stroke-width="1.6"/><rect x="14.2" y="11" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="21.4" y="11" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="14.2" y="18.6" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="21.4" y="18.6" width="4.4" height="4.8" fill="#B08D52"/><rect x="17.2" y="28" width="5.6" height="8" stroke="currentColor" stroke-width="1.1"/><path d="M5.5 36 H 34.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span class="wordmark">
+          <span class="wm-1">Green Street</span>
+          <span class="wm-2">Holdings</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="./about.html" data-en="About" data-es="Nosotros">About</a></li>
+          <li><a href="./service.html" data-en="Services" data-es="Servicios">Services</a></li>
+          <li><a href="./contact.html" data-en="Contact" data-es="Contacto">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+          <div class="lang" role="group" aria-label="Language">
+            <button type="button" data-lang="en" class="on">EN</button>
+            <button type="button" data-lang="es">ES</button>
           </div>
-          <button class="hamburger-menu">
-            <i class="fas fa-bars"></i>
-          </button>
-          <ul class="nav-links">
-              <li><a href="./about.html">ABOUT</a></li>
-              <li><a href="./service.html">SERVICES</a></li>
-            <li><a href="./contact.html">CONTACT</a></li>
-            <li>
-              <select id="language-switcher">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-              </select>
-            </li>
-          </ul>
-        </nav>
-      </header>
+          <a class="btn btn--bronze nav-cta" href="./contact.html" data-en="Partner with us" data-es="Trabaja con nosotros">Partner with us</a>
+          <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-    <div class="container">
-        <h1 class="contact-heading">Contact</h1>
-        <p class="contact-subheading">We offer a free consultation.</p>
-        <div class="contact-info">
-            <span class="contact-email-label"></span>
-            <a href="mailto:info@greenstreet-holding.com">info@greenstreet-holding.com</a>
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero contours">
+    <div class="wrap">
+      <div class="crumb"><a href="./index.html" data-en="Home" data-es="Inicio">Home</a> · <span data-en="Contact" data-es="Contacto">Contact</span></div>
+      <span class="eyebrow" data-en="Get in touch" data-es="Hablemos">Get in touch</span>
+      <h1 class="display mt-m">
+        <span data-en="Let's start a" data-es="Iniciemos una">Let's start a</span>
+        <span class="accent" data-en="conversation." data-es="conversación.">conversation.</span>
+      </h1>
+      <p class="page-hero__lead lead" data-en="Whether you're seeking capital, a partner, or an exit that honors what you've built — we'd be glad to hear from you. Every partnership begins with a conversation, and the first one is always on us." data-es="Ya sea que busques capital, un socio o una salida que honre lo que has construido, nos encantaría saber de ti. Toda alianza comienza con una conversación, y la primera siempre corre por nuestra cuenta.">Whether you're seeking capital, a partner, or an exit that honors what you've built — we'd be glad to hear from you. Every partnership begins with a conversation, and the first one is always on us.</p>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section bg-cream">
+    <div class="wrap">
+      <div class="contact-grid">
+
+        <!-- Info column -->
+        <div class="contact-info reveal">
+          <span class="eyebrow" data-en="Reach us" data-es="Contáctanos">Reach us</span>
+          <div class="row" style="margin-top:26px;">
+            <div class="k" data-en="Email" data-es="Correo">Email</div>
+            <div class="v"><a href="mailto:info@greenstreet-holding.com">info@greenstreet-holding.com</a></div>
+            <div class="sub" data-en="We typically reply within two business days." data-es="Normalmente respondemos en dos días hábiles.">We typically reply within two business days.</div>
+          </div>
+          <div class="row">
+            <div class="k" data-en="Region" data-es="Región">Region</div>
+            <div class="v" data-en="Latin America &amp; the Caribbean" data-es="América Latina y el Caribe">Latin America &amp; the Caribbean</div>
+            <div class="sub" data-en="Working with founders across the region." data-es="Trabajamos con fundadores en toda la región.">Working with founders across the region.</div>
+          </div>
+          <div class="row">
+            <div class="k" data-en="Consultation" data-es="Consulta">Consultation</div>
+            <div class="v" data-en="Complimentary &amp; confidential" data-es="Gratuita y confidencial">Complimentary &amp; confidential</div>
+            <div class="sub" data-en="No obligation — just an honest conversation about your business." data-es="Sin compromiso, solo una conversación honesta sobre tu empresa.">No obligation — just an honest conversation about your business.</div>
+          </div>
         </div>
 
-        <div class="contact-form-section">
-          <h2 class="contact-form-heading">Send us a message</h2>
+        <!-- Form column -->
+        <div class="form-card reveal" data-d="1">
+          <h2 data-en="Send us a message" data-es="Envíanos un mensaje">Send us a message</h2>
+          <p class="sub" data-en="Tell us a little about your business and what you're looking for." data-es="Cuéntanos un poco sobre tu empresa y qué estás buscando.">Tell us a little about your business and what you're looking for.</p>
           <form class="contact-form" action="https://formspree.io/f/xwvabwlj" method="POST">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" required placeholder="Your name">
+            <div class="form-row">
+              <div class="field">
+                <label for="name" data-en="Name" data-es="Nombre">Name</label>
+                <input type="text" id="name" name="name" required data-en-ph="Your name" data-es-ph="Tu nombre" placeholder="Your name" />
+              </div>
+              <div class="field">
+                <label for="email" data-en="Email" data-es="Correo">Email</label>
+                <input type="email" id="email" name="email" required data-en-ph="your@email.com" data-es-ph="tu@correo.com" placeholder="your@email.com" />
+              </div>
             </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required placeholder="your@email.com">
+            <div class="field">
+              <label for="company" data-en="Company" data-es="Empresa">Company</label>
+              <input type="text" id="company" name="company" data-en-ph="Your company (optional)" data-es-ph="Tu empresa (opcional)" placeholder="Your company (optional)" />
             </div>
-            <div class="form-group">
-              <label for="company">Company</label>
-              <input type="text" id="company" name="company" placeholder="Your company (optional)">
+            <div class="field">
+              <label for="interest" data-en="I'm interested in" data-es="Me interesa">I'm interested in</label>
+              <select id="interest" name="interest">
+                <option value="" data-en="Select an option…" data-es="Selecciona una opción…">Select an option…</option>
+                <option value="acquisition" data-en="Full acquisition" data-es="Adquisición total">Full acquisition</option>
+                <option value="partial" data-en="Partial ownership" data-es="Propiedad parcial">Partial ownership</option>
+                <option value="minority" data-en="Minority investment" data-es="Inversión minoritaria">Minority investment</option>
+                <option value="capital" data-en="Growth capital" data-es="Capital de crecimiento">Growth capital</option>
+                <option value="advisory" data-en="Advisory" data-es="Asesoría">Advisory</option>
+                <option value="other" data-en="Something else" data-es="Otra cosa">Something else</option>
+              </select>
             </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="5" required placeholder="Tell us about your business..."></textarea>
+            <div class="field">
+              <label for="message" data-en="Message" data-es="Mensaje">Message</label>
+              <textarea id="message" name="message" rows="5" required data-en-ph="Tell us about your business…" data-es-ph="Cuéntanos sobre tu empresa…" placeholder="Tell us about your business…"></textarea>
             </div>
-            <button type="submit" class="contact-submit">Send Message</button>
+            <button type="submit" class="btn btn--bronze" data-sending="Sending…" data-en="Send message" data-es="Enviar mensaje">Send message</button>
+            <p class="form-note" data-en="Your information is kept strictly confidential." data-es="Tu información se mantiene estrictamente confidencial.">Your information is kept strictly confidential.</p>
           </form>
         </div>
 
+      </div>
     </div>
+  </section>
 
-    <footer class="footer">
-      <div class="footer-top">
-        <div class="social-icons">
-          <a href="https://www.flaticon.com">Icons by Flaticon.com</a>
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer contours">
+    <div class="wrap-wide">
+      <div class="ft-top">
+        <div class="ft-brand">
+          <a class="logo" href="./index.html" aria-label="Green Street Holdings — home">
+            <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="10.5" y="6.5" width="19" height="29.5" stroke="currentColor" stroke-width="1.6"/><rect x="14.2" y="11" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="21.4" y="11" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="14.2" y="18.6" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="21.4" y="18.6" width="4.4" height="4.8" fill="#B08D52"/><rect x="17.2" y="28" width="5.6" height="8" stroke="currentColor" stroke-width="1.1"/><path d="M5.5 36 H 34.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            <span class="wordmark"><span class="wm-1" style="color:#fff;">Green Street</span><span class="wm-2">Holdings</span></span>
+          </a>
+          <p data-en="Strategic acquisitions and long-term partnerships for small and mid-sized businesses across Latin America." data-es="Adquisiciones estratégicas y alianzas a largo plazo para empresas pequeñas y medianas en toda América Latina.">Strategic acquisitions and long-term partnerships for small and mid-sized businesses across Latin America.</p>
         </div>
-        <div>
+        <div class="ft-col">
+          <h4 data-en="Navigate" data-es="Navegar">Navigate</h4>
           <ul>
-            <li>2024 Green Street Holdings  All Rights Reserved.</li>
+            <li><a href="./index.html" data-en="Home" data-es="Inicio">Home</a></li>
+            <li><a href="./about.html" data-en="About" data-es="Nosotros">About</a></li>
+            <li><a href="./service.html" data-en="Services" data-es="Servicios">Services</a></li>
+            <li><a href="./contact.html" data-en="Contact" data-es="Contacto">Contact</a></li>
+          </ul>
+        </div>
+        <div class="ft-col">
+          <h4 data-en="Connect" data-es="Conecta">Connect</h4>
+          <ul>
+            <li><a href="mailto:info@greenstreet-holding.com">info@greenstreet-holding.com</a></li>
+            <li data-en="Latin America &amp; the Caribbean" data-es="América Latina y el Caribe">Latin America &amp; the Caribbean</li>
+            <li><a href="./contact.html" data-en="Request a consultation" data-es="Solicita una consulta">Request a consultation</a></li>
           </ul>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>
-          <span><a href="mailto:info@greenstreet-holding.com"> info@greenstreet-holding.com</a></span>
-        </p>
+      <div class="ft-bottom hairline">
+        <span>© <span data-year>2025</span> Green Street Holdings. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></span>
+        <span data-en="Strategic investments · Latin America" data-es="Inversiones estratégicas · América Latina">Strategic investments · Latin America</span>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="./assets/js/site.js?v=9"></script>
 </body>
 </html>

@@ -1,192 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Green Street Holdings — Strategic Investments & Business Growth</title>
-    <meta name="description" content="Green Street Holdings partners with exceptional businesses through strategic acquisitions and investments, providing capital, expertise, and resources for transformative growth across Latin America and beyond." />
-    <meta name="keywords" content="strategic investments, business acquisitions, growth capital, business advisory, Latin America" />
-    <link rel="canonical" href="https://greenstreet-holding.com/" />
-    <meta property="og:title" content="Green Street Holdings — Strategic Investments & Business Growth" />
-    <meta property="og:description" content="Partner with us to unlock your business potential through strategic acquisitions, investments, and expert advisory." />
-    <meta property="og:url" content="https://greenstreet-holding.com/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://greenstreet-holding.com/images/GHS_LogoHouse.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Green Street Holdings" />
-    <meta name="twitter:description" content="Strategic investments and business growth in Latin America" />
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8J7JKD12YC"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-8J7JKD12YC');
-    </script>
-    <!-- Font Awesome CDN -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green Street Holdings — Strategic Investments & Business Growth in Latin America</title>
+  <meta name="description" content="Green Street Holdings partners with exceptional small and mid-sized businesses across Latin America — providing capital, expertise, and patient conviction for transformative, lasting growth." />
+  <meta name="keywords" content="strategic investments, business acquisitions, growth capital, business advisory, Latin America, private equity" />
+  <link rel="canonical" href="https://greenstreet-holding.com/" />
+  <meta property="og:title" content="Green Street Holdings — Strategic Investments & Business Growth" />
+  <meta property="og:description" content="Partner with us to unlock your business potential through strategic acquisitions, investments, and expert advisory across Latin America." />
+  <meta property="og:url" content="https://greenstreet-holding.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://greenstreet-holding.com/images/GHS_LogoHouse.png" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-  <body>
-    <header>
-      <nav class="navbar">
-        <div class="logo">
-          <a href="./index.html">
-            <img width="80px" src="./images/GHS_LogoHouse.png" alt=""
-          /></a>
-          <img class="green-logo" src="./images/GHS_Logo_Words.png" alt="" />
-        </div>
-        <button class="hamburger-menu">
-          <i class="fas fa-bars"></i>
-        </button>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/site.css?v=9" />
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="bar">
+      <a class="logo" href="./index.html" aria-label="Green Street Holdings — home">
+        <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="10.5" y="6.5" width="19" height="29.5" stroke="currentColor" stroke-width="1.6"/><rect x="14.2" y="11" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="21.4" y="11" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="14.2" y="18.6" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="21.4" y="18.6" width="4.4" height="4.8" fill="#B08D52"/><rect x="17.2" y="28" width="5.6" height="8" stroke="currentColor" stroke-width="1.1"/><path d="M5.5 36 H 34.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span class="wordmark">
+          <span class="wm-1">Green Street</span>
+          <span class="wm-2">Holdings</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
         <ul class="nav-links">
-          <li><a href="./about.html">ABOUT</a></li>
-          <li><a href="./service.html">SERVICES</a></li>
-          <li><a href="./contact.html">CONTACT</a></li>
-          <!-- Add Language Switcher -->
-          <li>
-            <select id="language-switcher">
-              <option value="en">English</option>
-              <option value="es">Español</option>
-            </select>
-          </li>
+          <li><a href="./about.html" data-en="About" data-es="Nosotros">About</a></li>
+          <li><a href="./service.html" data-en="Services" data-es="Servicios">Services</a></li>
+          <li><a href="./contact.html" data-en="Contact" data-es="Contacto">Contact</a></li>
         </ul>
+        <div class="nav-right">
+          <div class="lang" role="group" aria-label="Language">
+            <button type="button" data-lang="en" class="on">EN</button>
+            <button type="button" data-lang="es">ES</button>
+          </div>
+          <a class="btn btn--bronze nav-cta" href="./contact.html" data-en="Partner with us" data-es="Trabaja con nosotros">Partner with us</a>
+          <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        </div>
       </nav>
-    </header>
-
-    <div class="second-sec">
-      <section class="hero">
-        <div class="hero-content">
-          <h1>Empowering businesses</h1>
-
-          <p>
-            At Green Street Holdings, we partner with small businesses 
-            through strategic acquisitions and investments, equipping 
-            them with the capital, expertise, and resources to achieve 
-            transformative growth. Our mission is to cultivate enduring 
-            value and drive impactful, collaborative and long lasting success.
-          </p>
-        </div>
-      </section>
     </div>
+  </header>
 
-    <section class="growth-section">
-      <div class="growth-text">
-        <div class="all-text">
-          <h1 class="growth-title">We help you grow</h1>
-          <p class="growth-description">
-            We are dedicated to partnering with exceptional businesses to
-            accelerate their growth. We offer a range of investment strategies
-            tailored to your specific needs.
-          </p>
-          <button class="growth-btn">
-            <a href="./service.html">Our Services</a>
-          </button>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__bg">
+      <img class="contour-art" src="./assets/img/hero-contours.svg" alt="" aria-hidden="true" />
+    </div>
+    <div class="hero__inner">
+      <div class="wrap-wide">
+        <span class="eyebrow" data-en="Strategic Investments · Latin America" data-es="Inversiones Estratégicas · América Latina">Strategic Investments · Latin America</span>
+        <h1 class="display mt-m">
+          <span class="hl-1" data-en="Sustained value," data-es="Valor sostenido,">Sustained value,</span>
+          <span class="hl-2"><span data-en="built in" data-es="construido en">built in</span> <em class="accent" data-en="partnership." data-es="alianza.">partnership.</em></span>
+        </h1>
+        <p class="hero__lead lead" data-en="Green Street Holdings partners with exceptional small and mid-sized businesses across Latin America — providing the capital, expertise, and patient conviction to achieve transformative, lasting growth." data-es="Green Street Holdings se asocia con empresas pequeñas y medianas excepcionales en América Latina, aportando el capital, la experiencia y la convicción paciente para lograr un crecimiento transformador y duradero.">Green Street Holdings partners with exceptional small and mid-sized businesses across Latin America — providing the capital, expertise, and patient conviction to achieve transformative, lasting growth.</p>
+        <div class="hero__actions">
+          <a class="btn btn--bronze" href="./service.html"><span data-en="Explore how we partner" data-es="Cómo nos asociamos">Explore how we partner</span> <span class="arw" aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost" href="./contact.html" data-en="Start a conversation" data-es="Iniciar una conversación">Start a conversation</a>
+        </div>
+        <div class="hero__meta">
+          <div class="stat">
+            <div class="n">15<span class="u">+</span></div>
+            <div class="l" data-en="Years of founder experience" data-es="Años de experiencia">Years of founder experience</div>
+          </div>
+          <div class="stat">
+            <div class="n">5</div>
+            <div class="l" data-en="Ways we partner" data-es="Formas de asociarnos">Ways we partner</div>
+          </div>
+          <div class="stat">
+            <div class="n">2</div>
+            <div class="l" data-en="Founding partners, hands-on" data-es="Socios fundadores, comprometidos">Founding partners, hands-on</div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+    <div class="scrollcue"><span class="ln"></span><span data-en="Scroll" data-es="Desliza">Scroll</span></div>
+  </section>
 
-    <section class="services">
-      <h2 class="services-title">Services</h2>
-      <div class="services-container">
-        <div class="service-item">
-          <div class="service-icon">
-            <img width="50px" src="./images/acquisition3.png" alt="" />
-          </div>
-          <h3>Acquisitions</h3>
-          <p>
-            We acquire businesses outright, providing the resources and
-            expertise to unlock their full potential.
+  <!-- ============ POSITIONING STATEMENT ============ -->
+  <section class="section bg-cream">
+    <div class="wrap">
+      <div class="statement__grid">
+        <div class="reveal">
+          <span class="eyebrow" data-en="Our purpose" data-es="Nuestro propósito">Our purpose</span>
+          <p class="big mt-m">
+            <span data-en="We invest where capital is scarce and conviction is rewarded —" data-es="Invertimos donde el capital es escaso y la convicción se recompensa:">We invest where capital is scarce and conviction is rewarded —</span>
+            <span class="hl" data-en="backing founders across Latin America" data-es="respaldando a fundadores en toda América Latina">backing founders across Latin America</span>
+            <span data-en="with the resources, expertise, and patience to compound value over decades, not quarters." data-es="con los recursos, la experiencia y la paciencia para multiplicar el valor durante décadas, no trimestres.">with the resources, expertise, and patience to compound value over decades, not quarters.</span>
           </p>
         </div>
-        <div class="service-item">
-          <div class="service-icon">
-            <img width="50px" src="./images/partialownership.png" alt="" />
-          </div>
-          <h3>Partial Ownership</h3>
-          <p>
-            We invest in promising businesses, taking a significant ownership
-            stake and working closely with management to drive growth.
-          </p>
-        </div>
-        <div class="service-item">
-          <div class="service-icon">
-            <img width="50px" src="./images/acquisition2.png" alt="" />
-          </div>
-          <h3>Minority Investments</h3>
-          <p>
-            We provide capital and strategic support to high-growth companies,
-            enabling them to scale and innovate.
-          </p>
-        </div>
-        <div class="service-item last-boxes">
-          <div class="service-icon">
-            <img width="50px" src="./images/capital3.png" alt="" />
-          </div>
-          <h3>Capital</h3>
-          <p>
-            We provide access to capital and financial resources to fuel your
-            growth.
-          </p>
-        </div>
-        <div class="service-item last-boxes">
-          <div class="service-icon">
-            <img width="50px" src="./images/advisory.png" alt="" />
-          </div>
-          <h3>Advisory Services</h3>
-          <p>
-            We offer expert advice to help you identify growth opportunities and
-            develop customize strategies.
-          </p>
+        <div class="statement__aside reveal" data-d="1">
+          <p data-en="We are a holding company, not a fund on a clock. That distinction shapes everything: how we choose partners, how we structure deals, and how long we stay." data-es="Somos una holding, no un fondo contra reloj. Esa distinción define todo: cómo elegimos socios, cómo estructuramos acuerdos y cuánto tiempo permanecemos.">We are a holding company, not a fund on a clock. That distinction shapes everything: how we choose partners, how we structure deals, and how long we stay.</p>
+          <p data-en="From management consulting to forestry and impact investing, our founders bring rare, complementary expertise to every business we touch." data-es="Desde la consultoría de gestión hasta la silvicultura y la inversión de impacto, nuestros fundadores aportan una experiencia poco común y complementaria a cada empresa.">From management consulting to forestry and impact investing, our founders bring rare, complementary expertise to every business we touch.</p>
+          <a class="tlink mt-s" href="./about.html"><span data-en="Meet the partners" data-es="Conoce a los socios">Meet the partners</span> <span class="arw" aria-hidden="true">→</span></a>
         </div>
       </div>
-      <button class="services-button">
-        <a href="./about.html">About Us</a>
-      </button>
-    </section>
+    </div>
+  </section>
 
-    <!-- Our Difference Section -->
-    <section class="difference">
-      <div class="difference-content">
-        <h2>Let's build a brighter future together.</h2>
-        <p>
-          Ready to take your business to the next level? Contact us today to
-          explore how Green Street Holdings can help you achieve your goals.
-        </p>
-        <button class="about-btn">
-          <a href="./contact.html">Contact Us</a>
-        </button>
+  <!-- ============ APPROACH ============ -->
+  <section class="section-sm bg-sand">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow" data-en="Why Green Street" data-es="Por qué Green Street">Why Green Street</span>
+        <h2 class="h2 mt-s" data-en="A different kind of partner" data-es="Un tipo de socio diferente">A different kind of partner</h2>
       </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer-top">
-        <div class="social-icons">
-          <a href="https://www.flaticon.com">Icons by Flaticon.com</a>
+      <div class="mt-l">
+        <div class="approach-row reveal">
+          <span class="idx">01</span>
+          <h3 data-en="Aligned ownership" data-es="Propiedad alineada">Aligned ownership</h3>
+          <p data-en="We take meaningful stakes and stay close to management — sharing the risk, the work, and the upside alongside the founders we back." data-es="Tomamos participaciones significativas y trabajamos junto a la gerencia, compartiendo el riesgo, el trabajo y el beneficio con los fundadores que respaldamos.">We take meaningful stakes and stay close to management — sharing the risk, the work, and the upside alongside the founders we back.</p>
         </div>
+        <div class="approach-row reveal">
+          <span class="idx">02</span>
+          <h3 data-en="Operating expertise" data-es="Experiencia operativa">Operating expertise</h3>
+          <p data-en="Strategy, data, and capital-formation experience — from McKinsey to the Amazon — applied hands-on, not from a boardroom at a distance." data-es="Experiencia en estrategia, datos y formación de capital, desde McKinsey hasta la Amazonía, aplicada de forma práctica y cercana.">Strategy, data, and capital-formation experience — from McKinsey to the Amazon — applied hands-on, not from a boardroom at a distance.</p>
+        </div>
+        <div class="approach-row reveal">
+          <span class="idx">03</span>
+          <h3 data-en="Patient horizon" data-es="Horizonte paciente">Patient horizon</h3>
+          <p data-en="We hold for the long term, building durable businesses and compounding value — rather than engineering a quick exit." data-es="Mantenemos a largo plazo, construyendo empresas duraderas y multiplicando el valor, en lugar de diseñar una salida rápida.">We hold for the long term, building durable businesses and compounding value — rather than engineering a quick exit.</p>
+        </div>
+        <div class="approach-row reveal">
+          <span class="idx">04</span>
+          <h3 data-en="Responsible growth" data-es="Crecimiento responsable">Responsible growth</h3>
+          <p data-en="Impact and returns reinforce one another. We back businesses that strengthen their communities and steward their environment." data-es="El impacto y los retornos se refuerzan mutuamente. Respaldamos empresas que fortalecen sus comunidades y cuidan su entorno.">Impact and returns reinforce one another. We back businesses that strengthen their communities and steward their environment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <div>
+  <!-- ============ SERVICES ============ -->
+  <section class="section bg-cream" id="services">
+    <div class="wrap">
+      <div class="sec-head reveal" style="display:flex;justify-content:space-between;align-items:flex-end;gap:24px;max-width:none;flex-wrap:wrap;">
+        <div style="max-width:560px;">
+          <span class="eyebrow" data-en="What we do" data-es="Qué hacemos">What we do</span>
+          <h2 class="h2 mt-s" data-en="Five ways we partner with businesses" data-es="Cinco formas de asociarnos con empresas">Five ways we partner with businesses</h2>
+        </div>
+        <a class="tlink" href="./service.html"><span data-en="All services" data-es="Todos los servicios">All services</span> <span class="arw" aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="svc-grid mt-l reveal">
+        <article class="svc">
+          <div class="svc__top">
+            <span class="svc__no">01</span>
+            <span class="svc__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-5h6v5"/></svg></span>
+          </div>
+          <h3 data-en="Full Acquisitions" data-es="Adquisiciones totales">Full Acquisitions</h3>
+          <p data-en="We acquire businesses outright, providing the resources and expertise to unlock their full potential." data-es="Adquirimos empresas por completo, aportando los recursos y la experiencia para liberar todo su potencial.">We acquire businesses outright, providing the resources and expertise to unlock their full potential.</p>
+          <span class="svc__more" data-en="Learn more" data-es="Saber más">Learn more</span>
+        </article>
+
+        <article class="svc">
+          <div class="svc__top">
+            <span class="svc__no">02</span>
+            <span class="svc__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l6.4 6.4"/></svg></span>
+          </div>
+          <h3 data-en="Partial Ownership" data-es="Propiedad parcial">Partial Ownership</h3>
+          <p data-en="We take significant stakes and work closely with management to drive sustained growth." data-es="Tomamos participaciones significativas y colaboramos estrechamente con la gerencia para impulsar el crecimiento.">We take significant stakes and work closely with management to drive sustained growth.</p>
+          <span class="svc__more" data-en="Learn more" data-es="Saber más">Learn more</span>
+        </article>
+
+        <article class="svc">
+          <div class="svc__top">
+            <span class="svc__no">03</span>
+            <span class="svc__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 17l6-6 4 4 8-8M21 7h-5M21 7v5"/></svg></span>
+          </div>
+          <h3 data-en="Minority Investments" data-es="Inversiones minoritarias">Minority Investments</h3>
+          <p data-en="Capital and strategic support for high-growth companies ready to scale and innovate." data-es="Capital y apoyo estratégico para empresas de alto crecimiento listas para escalar e innovar.">Capital and strategic support for high-growth companies ready to scale and innovate.</p>
+          <span class="svc__more" data-en="Learn more" data-es="Saber más">Learn more</span>
+        </article>
+
+        <article class="svc">
+          <div class="svc__top">
+            <span class="svc__no">04</span>
+            <span class="svc__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="6" width="18" height="12" rx="1.5"/><circle cx="12" cy="12" r="2.5"/><path d="M6 9v6M18 9v6"/></svg></span>
+          </div>
+          <h3 data-en="Growth Capital" data-es="Capital de crecimiento">Growth Capital</h3>
+          <p data-en="Access to capital and financial resources to fuel your next stage of expansion." data-es="Acceso a capital y recursos financieros para impulsar tu próxima etapa de expansión.">Access to capital and financial resources to fuel your next stage of expansion.</p>
+          <span class="svc__more" data-en="Learn more" data-es="Saber más">Learn more</span>
+        </article>
+
+        <article class="svc">
+          <div class="svc__top">
+            <span class="svc__no">05</span>
+            <span class="svc__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M21 3l-9 9"/><path d="M15 3h6v6"/></svg></span>
+          </div>
+          <h3 data-en="Advisory" data-es="Asesoría">Advisory</h3>
+          <p data-en="Expert guidance to identify opportunities and build tailored strategies for the long term." data-es="Orientación experta para identificar oportunidades y construir estrategias a la medida y de largo plazo.">Expert guidance to identify opportunities and build tailored strategies for the long term.</p>
+          <span class="svc__more" data-en="Learn more" data-es="Saber más">Learn more</span>
+        </article>
+
+        <a class="svc" href="./contact.html" style="background:var(--forest-900);">
+          <div class="svc__top">
+            <span class="svc__no" style="color:var(--bronze-400);">→</span>
+          </div>
+          <h3 style="color:#fff;" data-en="Not sure which fits?" data-es="¿No sabes cuál encaja?">Not sure which fits?</h3>
+          <p style="color:rgba(244,240,230,0.7);" data-en="Every partnership begins with a conversation. Tell us about your business and we'll find the right structure together." data-es="Toda alianza comienza con una conversación. Cuéntanos sobre tu empresa y encontraremos juntos la estructura adecuada.">Every partnership begins with a conversation. Tell us about your business and we'll find the right structure together.</p>
+          <span class="svc__more" style="opacity:1;transform:none;color:var(--bronze-400);" data-en="Get in touch →" data-es="Contáctanos →">Get in touch →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOUNDERS TEASER ============ -->
+  <section class="section bg-forest contours">
+    <div class="wrap">
+      <div class="sec-head reveal" style="max-width:640px;">
+        <span class="eyebrow" data-en="Leadership" data-es="Liderazgo">Leadership</span>
+        <h2 class="h2 mt-s" style="color:#fff;" data-en="Two founders. Complementary conviction." data-es="Dos fundadores. Convicción complementaria.">Two founders. Complementary conviction.</h2>
+      </div>
+      <div class="lead-teaser mt-l reveal">
+        <div class="lead-card">
+          <img src="./images/lucho-escobedo.jpg" alt="Lucho Escobedo" />
+          <div>
+            <div class="nm">Lucho Escobedo</div>
+            <div class="rl" data-en="Founder & Managing Partner" data-es="Fundador y Socio Director">Founder &amp; Managing Partner</div>
+            <p class="ds" data-en="Ex-McKinsey strategist and serial founder across data, consumer goods, and hospitality." data-es="Ex-estratega de McKinsey y fundador en serie en datos, bienes de consumo y hospitalidad.">Ex-McKinsey strategist and serial founder across data, consumer goods, and hospitality.</p>
+          </div>
+        </div>
+        <div class="lead-card">
+          <img src="./images/carol-burga.jpg" alt="Carol Burga" />
+          <div>
+            <div class="nm">Carol Burga</div>
+            <div class="rl" data-en="Founder & General Partner" data-es="Fundadora y Socia General">Founder &amp; General Partner</div>
+            <p class="ds" data-en="Impact investor and forestry expert; published author advancing responsible investment." data-es="Inversora de impacto y experta en silvicultura; autora que promueve la inversión responsable.">Impact investor and forestry expert; published author advancing responsible investment.</p>
+          </div>
+        </div>
+      </div>
+      <a class="tlink mt-l" href="./about.html"><span data-en="Read their story" data-es="Lee su historia">Read their story</span> <span class="arw" aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta section contours">
+    <div class="wrap">
+      <div class="cta__inner reveal">
+        <span class="eyebrow center" data-en="Let's build together" data-es="Construyamos juntos">Let's build together</span>
+        <h2 class="h1 mt-m">
+          <span data-en="Ready to take your business" data-es="¿Listo para llevar tu empresa">Ready to take your business</span>
+          <em data-en="further?" data-es="más lejos?">further?</em>
+        </h2>
+        <p data-en="Whether you're seeking capital, a partner, or an exit that honors what you've built — let's start a conversation." data-es="Ya sea que busques capital, un socio o una salida que honre lo que has construido, iniciemos una conversación.">Whether you're seeking capital, a partner, or an exit that honors what you've built — let's start a conversation.</p>
+        <div class="cta__actions">
+          <a class="btn btn--bronze" href="./contact.html"><span data-en="Contact us" data-es="Contáctanos">Contact us</span> <span class="arw" aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost" href="./about.html" data-en="Learn about us" data-es="Conócenos">Learn about us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer contours">
+    <div class="wrap-wide">
+      <div class="ft-top">
+        <div class="ft-brand">
+          <a class="logo" href="./index.html" aria-label="Green Street Holdings — home">
+            <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="10.5" y="6.5" width="19" height="29.5" stroke="currentColor" stroke-width="1.6"/><rect x="14.2" y="11" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="21.4" y="11" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="14.2" y="18.6" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="21.4" y="18.6" width="4.4" height="4.8" fill="#B08D52"/><rect x="17.2" y="28" width="5.6" height="8" stroke="currentColor" stroke-width="1.1"/><path d="M5.5 36 H 34.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            <span class="wordmark"><span class="wm-1" style="color:#fff;">Green Street</span><span class="wm-2">Holdings</span></span>
+          </a>
+          <p data-en="Strategic acquisitions and long-term partnerships for small and mid-sized businesses across Latin America." data-es="Adquisiciones estratégicas y alianzas a largo plazo para empresas pequeñas y medianas en toda América Latina.">Strategic acquisitions and long-term partnerships for small and mid-sized businesses across Latin America.</p>
+        </div>
+        <div class="ft-col">
+          <h4 data-en="Navigate" data-es="Navegar">Navigate</h4>
           <ul>
-            <li>2024 Green Street Holdings. All Rights Reserved.</li>
+            <li><a href="./index.html" data-en="Home" data-es="Inicio">Home</a></li>
+            <li><a href="./about.html" data-en="About" data-es="Nosotros">About</a></li>
+            <li><a href="./service.html" data-en="Services" data-es="Servicios">Services</a></li>
+            <li><a href="./contact.html" data-en="Contact" data-es="Contacto">Contact</a></li>
+          </ul>
+        </div>
+        <div class="ft-col">
+          <h4 data-en="Connect" data-es="Conecta">Connect</h4>
+          <ul>
+            <li><a href="mailto:info@greenstreet-holding.com">info@greenstreet-holding.com</a></li>
+            <li data-en="Latin America & the Caribbean" data-es="América Latina y el Caribe">Latin America &amp; the Caribbean</li>
+            <li><a href="./contact.html" data-en="Request a consultation" data-es="Solicita una consulta">Request a consultation</a></li>
           </ul>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>
-          <span
-            ><a href="mailto:info@greenstreet-holding.com">
-              info@greenstreet-holding.com</a
-            ></span
-          >
-        </p>
+      <div class="ft-bottom hairline">
+        <span>© <span data-year>2025</span> Green Street Holdings. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></span>
+        <span data-en="Strategic investments · Latin America" data-es="Inversiones estratégicas · América Latina">Strategic investments · Latin America</span>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="./assets/js/site.js?v=2"></script>
+</body>
 </html>

@@ -1,103 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us — Green Street Holdings Leadership & Vision</title>
-    <meta name="description" content="Meet the leadership team at Green Street Holdings. Learn about our founders Lucho Escobedo and Carol Burga, and their vision for strategic investment and sustainable business growth." />
-    <link rel="canonical" href="https://greenstreet-holding.com/about.html" />
-    <meta property="og:title" content="About Green Street Holdings — Leadership & Vision" />
-    <meta property="og:description" content="Discover the expertise and vision behind Green Street Holdings' approach to strategic investments and business transformation." />
-    <meta property="og:url" content="https://greenstreet-holding.com/about.html" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://greenstreet-holding.com/images/GHS_LogoHouse.png" />
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8J7JKD12YC"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-8J7JKD12YC');
-    </script>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Green Street Holdings · Leadership & Vision</title>
+  <meta name="description" content="Meet the founders of Green Street Holdings — Lucho Escobedo and Carol Burga — and the philosophy behind our approach to strategic, long-term, and responsible investment across Latin America." />
+  <link rel="canonical" href="https://greenstreet-holding.com/about.html" />
+  <meta property="og:title" content="About Green Street Holdings — Leadership & Vision" />
+  <meta property="og:description" content="Discover the expertise and vision behind Green Street Holdings' approach to strategic investments and business transformation." />
+  <meta property="og:url" content="https://greenstreet-holding.com/about.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://greenstreet-holding.com/images/GHS_LogoHouse.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/site.css?v=9" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">
-        <a href="./index.html"> <img width="80px" src="./images/GHS_LogoHouse.png" alt=""></a>
-        <img class="green-logo" src="./images/GHS_Logo_Words.png" alt=""/>
-      </div>
-      <button class="hamburger-menu">
-        <i class="fas fa-bars"></i>
-      </button>
-      <ul class="nav-links">
-          <li><a href="./about.html">ABOUT</a></li>
-          <li><a href="./service.html">SERVICES</a></li>
-          <li><a href="./contact.html">CONTACT</a></li>
-          <li>
-            <select id="language-switcher">
-              <option value="en">English</option>
-              <option value="es">Español</option>
-            </select>
-          </li>
-      </ul>
-    </nav>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="bar">
+      <a class="logo" href="./index.html" aria-label="Green Street Holdings — home">
+        <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="10.5" y="6.5" width="19" height="29.5" stroke="currentColor" stroke-width="1.6"/><rect x="14.2" y="11" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="21.4" y="11" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="14.2" y="18.6" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="21.4" y="18.6" width="4.4" height="4.8" fill="#B08D52"/><rect x="17.2" y="28" width="5.6" height="8" stroke="currentColor" stroke-width="1.1"/><path d="M5.5 36 H 34.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span class="wordmark">
+          <span class="wm-1">Green Street</span>
+          <span class="wm-2">Holdings</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="./about.html" data-en="About" data-es="Nosotros">About</a></li>
+          <li><a href="./service.html" data-en="Services" data-es="Servicios">Services</a></li>
+          <li><a href="./contact.html" data-en="Contact" data-es="Contacto">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+          <div class="lang" role="group" aria-label="Language">
+            <button type="button" data-lang="en" class="on">EN</button>
+            <button type="button" data-lang="es">ES</button>
+          </div>
+          <a class="btn btn--bronze nav-cta" href="./contact.html" data-en="Partner with us" data-es="Trabaja con nosotros">Partner with us</a>
+          <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        </div>
+      </nav>
+    </div>
   </header>
 
-  <div class="service-page">
-    <div class="service-head">
-        <h1 class="about-heading">About Us</h1>  </div>
-  </div>
-
-  <div class="about-container">
-    <div class="about-left">
-      <div>
-        <h1 class="about-title">Lucho Escobedo</h1>
-        <h3 class="about-title2">Founder & Managing Partner</h3>
-        <p class="about-text">
-          Lucho is an entrepreneur and strategic leader with over 15 years of experience at the intersection of technology, management consulting, and business innovation. At McKinsey & Company, Lucho honed his skills in solving complex challenges for global organizations, setting the foundation for a career dedicated to transformative leadership. He is the co-founder of several successful ventures, including a data and analytics consulting firm that serves clients across Latin America and the Caribbean, and a consumer goods company renowned for creating premium brands that prioritize authenticity, reputation, and excellence. Additionally, Lucho's new ventures include a company that supports entrepreneurs by providing end-to-end services, from business inception to tax and human capital management, and a hospitality business that delivers immersive nature-based retreats. Through Green Street Holding, Lucho channels his passion for growth and innovation to cultivate exceptional business outcomes and meaningful collaborations.
-        </p>
-      </div>
-      <img src="./images/WhatsApp Image 2024-12-03 at 4.51.48 AM (1).jpeg" alt=""/>
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero contours">
+    <div class="wrap">
+      <div class="crumb"><a href="./index.html" data-en="Home" data-es="Inicio">Home</a> · <span data-en="About" data-es="Nosotros">About</span></div>
+      <span class="eyebrow" data-en="Who we are" data-es="Quiénes somos">Who we are</span>
+      <h1 class="display mt-m">
+        <span data-en="Conviction, expertise," data-es="Convicción, experiencia">Conviction, expertise,</span>
+        <span class="accent" data-en="and the long view." data-es="y visión de largo plazo.">and the long view.</span>
+      </h1>
+      <p class="page-hero__lead lead" data-en="Green Street Holdings is a holding company built around a simple belief: that exceptional businesses can transform their communities." data-es="Green Street Holdings es una holding construida sobre una creencia simple: que las empresas excepcionales pueden transformar sus comunidades.">Green Street Holdings is a holding company built around a simple belief: that exceptional businesses can transform their communities.</p>
     </div>
+  </section>
 
-    <div class="about-right">
-      <div class="right-img">
-        <img src="./images/WhatsApp Image 2024-12-03 at 4.51.48 AM.jpeg" alt=""/>
-      </div>
-      <div>
-        <h1 class="about-title">Carol Burga</h1>
-        <h3 class="about-title2">Founder & General Partner</h3>
-        <p class="about-text">
-          Carol Burga is Co-founder and General Partner at Green Street Holdings, where she leads impact investment initiatives and channels her expertise to create sustainable and transformative opportunities. As a published author and advocate for responsible investment, Carol plays a pivotal role in shaping the firm’s vision and fostering partnerships that drive meaningful change. With over 15 years of experience empowering Indigenous and local communities in forest nations, Carol has built a reputation as a trusted expert in the Amazon and forestry communities across Southeast Asia and Africa. She holds a Master’s degree in Forestry and Indigenous Peoples, combining scientific knowledge with practical solutions to drive sustainable development and environmental stewardship. Currently, Carol facilitates stakeholder engagement for jurisdictional REDD+ programs worldwide through her role at Emergent, promoting inclusive partnerships for impactful climate solutions.
-        </p>
-      </div>
-    </div>
-    <button class="services-button">
-      <a href="./contact.html">Contact Us</a>
-    </button>
-  </div>
-
-  <footer class="footer">
-    <div class="footer-top">
-      <div class="social-icons">
-        <a href="https://www.flaticon.com">Icons by Flaticon.com</a>
-      </div>
-      <div>
-        <ul>
-          <li>2024 Green Street Holdings. All Rights Reserved.</li>
-        </ul>
+  <!-- ============ MISSION ============ -->
+  <section class="section bg-cream">
+    <div class="wrap">
+      <div class="statement__grid">
+        <div class="reveal">
+          <span class="eyebrow" data-en="Our mission" data-es="Nuestra misión">Our mission</span>
+          <p class="big mt-m">
+            <span data-en="We partner with small and mid-sized businesses across Latin America —" data-es="Nos asociamos con empresas pequeñas y medianas en América Latina:">We partner with small and mid-sized businesses across Latin America —</span>
+            <span class="hl" data-en="equipping them with capital, expertise, and resources" data-es="dotándolas de capital, experiencia y recursos">equipping them with capital, expertise, and resources</span>
+            <span data-en="to achieve transformative growth, and to build enduring, collaborative success." data-es="para lograr un crecimiento transformador y construir un éxito duradero y colaborativo.">to achieve transformative growth, and to build enduring, collaborative success.</span>
+          </p>
+        </div>
+        <div class="statement__aside reveal" data-d="1">
+          <p data-en="We stay close to the businesses we back, respect the communities they serve, and understand the region's particular opportunities and constraints." data-es="Nos mantenemos cerca de las empresas que respaldamos, respetamos a las comunidades a las que sirven y comprendemos las oportunidades y desafíos particulares de la región.">We stay close to the businesses we back, respect the communities they serve, and understand the region's particular opportunities and constraints.</p>
+          <p data-en="It's an approach grounded in partnership rather than extraction; in building rather than flipping." data-es="Es un enfoque basado en la alianza más que en la extracción; en construir más que en revender.">It's an approach grounded in partnership rather than extraction; in building rather than flipping.</p>
+        </div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <p>
-        <span><a href="mailto:info@greenstreet-holding.com">info@greenstreet-holding.com</a></span>
-      </p>
+  </section>
+
+  <!-- ============ FOUNDERS ============ -->
+  <section class="section bg-forest contours">
+    <div class="wrap">
+      <div class="sec-head reveal" style="max-width:640px;">
+        <span class="eyebrow" data-en="Leadership" data-es="Liderazgo">Leadership</span>
+        <h2 class="h2 mt-s" style="color:#fff;" data-en="The founders" data-es="Los fundadores">The founders</h2>
+      </div>
+
+      <!-- Lucho -->
+      <div class="founder mt-l reveal" style="margin-top:clamp(48px,7vw,96px);">
+        <div class="founder__media">
+          <div class="ph">
+            <img src="./images/lucho-escobedo.jpg" alt="Lucho Escobedo, Founder &amp; Managing Partner" />
+            <span class="frame"></span>
+          </div>
+          <span class="badge">Est. 2024</span>
+        </div>
+        <div class="founder__body on-dark">
+          <div class="role" data-en="Founder &amp; Managing Partner" data-es="Fundador y Socio Director">Founder &amp; Managing Partner</div>
+          <h3 class="name">Lucho Escobedo</h3>
+          <p data-en="Lucho is an entrepreneur and strategic leader with over 15 years of experience at the intersection of technology, management consulting, and business innovation. At McKinsey &amp; Company, he honed his ability to solve complex challenges for global organizations — the foundation for a career dedicated to transformative leadership." data-es="Lucho es un emprendedor y líder estratégico con más de 15 años de experiencia en la intersección de la tecnología, la consultoría de gestión y la innovación empresarial. En McKinsey &amp; Company perfeccionó su capacidad para resolver retos complejos de organizaciones globales: la base de una carrera dedicada al liderazgo transformador.">Lucho is an entrepreneur and strategic leader with over 15 years of experience at the intersection of technology, management consulting, and business innovation. At McKinsey &amp; Company, he honed his ability to solve complex challenges for global organizations — the foundation for a career dedicated to transformative leadership.</p>
+          <p data-en="He has co-founded several ventures: a data and analytics consulting firm serving clients across Latin America and the Caribbean; a consumer-goods company building premium, authentic brands; and an end-to-end services company supporting entrepreneurs from inception to tax and human-capital management." data-es="Ha cofundado varias empresas: una firma de consultoría en datos y analítica que atiende a clientes en América Latina y el Caribe; una compañía de bienes de consumo que construye marcas premium y auténticas; y una empresa de servicios integrales que apoya a emprendedores desde la concepción hasta la gestión tributaria y de capital humano.">He has co-founded several ventures: a data and analytics consulting firm serving clients across Latin America and the Caribbean; a consumer-goods company building premium, authentic brands; and an end-to-end services company supporting entrepreneurs from inception to tax and human-capital management.</p>
+          <ul class="founder__creds">
+            <li><span class="k">—</span><span data-en="Former consultant, McKinsey &amp; Company" data-es="Exconsultor, McKinsey &amp; Company">Former consultant, McKinsey &amp; Company</span></li>
+            <li><span class="k">—</span><span data-en="Serial founder across supply chain, consumer goods &amp; AI consulting" data-es="Fundador en serie en cadena de suministro, bienes de consumo y consultoría de IA">Serial founder across supply chain, consumer goods &amp; AI consulting</span></li>
+            <li><span class="k">—</span><span data-en="Focus on strategy, data &amp; capital formation" data-es="Enfoque en estrategia, datos y formación de capital">Focus on strategy, data &amp; capital formation</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Carol -->
+      <div class="founder rev reveal" style="margin-top:clamp(48px,7vw,96px);">
+        <div class="founder__media">
+          <div class="ph">
+            <img src="./images/carol-burga.jpg" alt="Carol Burga, Founder &amp; General Partner" />
+            <span class="frame"></span>
+          </div>
+          <span class="badge">Est. 2024</span>
+        </div>
+        <div class="founder__body on-dark">
+          <div class="role" data-en="Founder &amp; General Partner" data-es="Fundadora y Socia General">Founder &amp; General Partner</div>
+          <h3 class="name">Carol Burga</h3>
+          <p data-en="Carol is Co-founder and General Partner at Green Street Holdings, where she leads impact-investment initiatives and helps shape the firm's vision. A published author and advocate for responsible investment, she fosters partnerships that drive meaningful, measurable change." data-es="Carol es cofundadora y Socia General en Green Street Holdings, donde lidera las iniciativas de inversión de impacto y ayuda a dar forma a la visión de la firma. Autora publicada y defensora de la inversión responsable, impulsa alianzas que generan cambios significativos y medibles.">Carol is Co-founder and General Partner at Green Street Holdings, where she leads impact-investment initiatives and helps shape the firm's vision. A published author and advocate for responsible investment, she fosters partnerships that drive meaningful, measurable change.</p>
+          <p data-en="With over 15 years empowering Indigenous and local communities in forest nations, Carol is a trusted expert across the Amazon and forestry communities in Southeast Asia and Africa. She holds a Master's in Forest Governance and Indigenous Peoples, and currently facilitates stakeholder engagement for jurisdictional REDD+ programs worldwide." data-es="Con más de 15 años empoderando a comunidades indígenas y locales en naciones forestales, Carol es una experta de confianza en la Amazonía y en comunidades forestales del sudeste asiático y África. Tiene una maestría en Gobierno Forestal y Pueblos Indígenas, y actualmente facilita la participación de actores clave en programas jurisdiccionales REDD+ en todo el mundo.">With over 15 years empowering Indigenous and local communities in forest nations, Carol is a trusted expert across the Amazon and forestry communities in Southeast Asia and Africa. She holds a Master's in Forest Governance and Indigenous Peoples, and currently facilitates stakeholder engagement for jurisdictional REDD+ programs worldwide.</p>
+          <ul class="founder__creds">
+            <li><span class="k">—</span><span data-en="M.Sc. Forest Governance &amp; Indigenous Peoples" data-es="M.Sc. en Gobierno Forestal y Pueblos Indígenas">M.Sc. Forest Governance &amp; Indigenous Peoples</span></li>
+            <li><span class="k">—</span><span data-en="Published author on the Amazon, forest resources &amp; Indigenous communities" data-es="Autora publicada sobre Amazonía, recursos forestales y comunidades indígenas">Published author on the Amazon, forest resources &amp; Indigenous communities</span></li>
+            <li><span class="k">—</span><span data-en="Stakeholder engagement, jurisdictional REDD+ programs" data-es="Participación de actores clave, programas jurisdiccionales REDD+">Stakeholder engagement, jurisdictional REDD+ programs</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRINCIPLES ============ -->
+  <section class="section bg-cream">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow" data-en="What guides us" data-es="Lo que nos guía">What guides us</span>
+        <h2 class="h2 mt-s" data-en="The principles behind every partnership" data-es="Los principios detrás de cada alianza">The principles behind every partnership</h2>
+      </div>
+      <div class="grid cols-3 mt-l">
+        <div class="principle reveal">
+          <span class="pn">01</span>
+          <h3 data-en="Partnership over control" data-es="Alianzas en vez de control">Partnership over control</h3>
+          <p data-en="We succeed when founders succeed. We structure every relationship around shared incentives and mutual respect." data-es="Tenemos éxito cuando los fundadores lo tienen. Estructuramos cada relación en torno a incentivos compartidos y respeto mutuo.">We succeed when founders succeed. We structure every relationship around shared incentives and mutual respect.</p>
+        </div>
+        <div class="principle reveal" data-d="1">
+          <span class="pn">02</span>
+          <h3 data-en="Long-term thinking" data-es="Pensamiento a largo plazo">Long-term thinking</h3>
+          <p data-en="We measure success in decades. Long-horizon capital lets businesses make the right decisions, not just the urgent ones." data-es="Medimos el éxito en décadas. El capital de largo plazo permite a las empresas tomar las decisiones correctas, no solo las urgentes.">We measure success in decades. Long-horizon capital lets businesses make the right decisions, not just the urgent ones.</p>
+        </div>
+        <div class="principle reveal" data-d="2">
+          <span class="pn">03</span>
+          <h3 data-en="Responsible by design" data-es="Responsable por diseño">Responsible by design</h3>
+          <p data-en="Impact and returns are not in tension. We back businesses that create value for shareholders, communities, and the environment alike." data-es="El impacto y los retornos no están en conflicto. Respaldamos empresas que crean valor para accionistas, comunidades y el medio ambiente por igual.">Impact and returns are not in tension. We back businesses that create value for shareholders, communities, and the environment alike.</p>
+        </div>
+        <div class="principle reveal">
+          <span class="pn">04</span>
+          <h3 data-en="Operating, not observing" data-es="Operar, no observar">Operating, not observing</h3>
+          <p data-en="We roll up our sleeves. Our experience in strategy, data, and capital formation is applied directly alongside management." data-es="Nos arremangamos. Nuestra experiencia en estrategia, datos y formación de capital se aplica directamente junto a la gerencia.">We roll up our sleeves. Our experience in strategy, data, and capital formation is applied directly alongside management.</p>
+        </div>
+        <div class="principle reveal" data-d="1">
+          <span class="pn">05</span>
+          <h3 data-en="Regional fluency" data-es="Fluidez regional">Regional fluency</h3>
+          <p data-en="We understand Latin America from the inside — its markets, its people, and the realities of building a business here." data-es="Entendemos América Latina desde adentro: sus mercados, su gente y la realidad de construir una empresa aquí.">We understand Latin America from the inside — its markets, its people, and the realities of building a business here.</p>
+        </div>
+        <div class="principle reveal" data-d="2">
+          <span class="pn">06</span>
+          <h3 data-en="Honest counsel" data-es="Consejo honesto">Honest counsel</h3>
+          <p data-en="We tell founders what we believe, not what's easy to hear. Trust is the foundation of every lasting partnership." data-es="Les decimos a los fundadores lo que creemos, no lo que es fácil de escuchar. La confianza es la base de toda alianza duradera.">We tell founders what we believe, not what's easy to hear. Trust is the foundation of every lasting partnership.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta section contours">
+    <div class="wrap">
+      <div class="cta__inner reveal">
+        <span class="eyebrow center" data-en="Let's build together" data-es="Construyamos juntos">Let's build together</span>
+        <h2 class="h1 mt-m">
+          <span data-en="Think we might be the" data-es="¿Crees que podríamos ser el">Think we might be the</span>
+          <em data-en="right partner?" data-es="socio indicado?">right partner?</em>
+        </h2>
+        <p data-en="We'd love to learn about your business and explore how we can help you grow." data-es="Nos encantaría conocer tu empresa y explorar cómo podemos ayudarte a crecer.">We'd love to learn about your business and explore how we can help you grow.</p>
+        <div class="cta__actions">
+          <a class="btn btn--bronze" href="./contact.html"><span data-en="Contact us" data-es="Contáctanos">Contact us</span> <span class="arw" aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost" href="./service.html" data-en="See our services" data-es="Ver servicios">See our services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer contours">
+    <div class="wrap-wide">
+      <div class="ft-top">
+        <div class="ft-brand">
+          <a class="logo" href="./index.html" aria-label="Green Street Holdings — home">
+            <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="10.5" y="6.5" width="19" height="29.5" stroke="currentColor" stroke-width="1.6"/><rect x="14.2" y="11" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="21.4" y="11" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="14.2" y="18.6" width="4.4" height="4.8" stroke="currentColor" stroke-width="1.1"/><rect x="21.4" y="18.6" width="4.4" height="4.8" fill="#B08D52"/><rect x="17.2" y="28" width="5.6" height="8" stroke="currentColor" stroke-width="1.1"/><path d="M5.5 36 H 34.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            <span class="wordmark"><span class="wm-1" style="color:#fff;">Green Street</span><span class="wm-2">Holdings</span></span>
+          </a>
+          <p data-en="Strategic acquisitions and long-term partnerships for small and mid-sized businesses across Latin America." data-es="Adquisiciones estratégicas y alianzas a largo plazo para empresas pequeñas y medianas en toda América Latina.">Strategic acquisitions and long-term partnerships for small and mid-sized businesses across Latin America.</p>
+        </div>
+        <div class="ft-col">
+          <h4 data-en="Navigate" data-es="Navegar">Navigate</h4>
+          <ul>
+            <li><a href="./index.html" data-en="Home" data-es="Inicio">Home</a></li>
+            <li><a href="./about.html" data-en="About" data-es="Nosotros">About</a></li>
+            <li><a href="./service.html" data-en="Services" data-es="Servicios">Services</a></li>
+            <li><a href="./contact.html" data-en="Contact" data-es="Contacto">Contact</a></li>
+          </ul>
+        </div>
+        <div class="ft-col">
+          <h4 data-en="Connect" data-es="Conecta">Connect</h4>
+          <ul>
+            <li><a href="mailto:info@greenstreet-holding.com">info@greenstreet-holding.com</a></li>
+            <li data-en="Latin America &amp; the Caribbean" data-es="América Latina y el Caribe">Latin America &amp; the Caribbean</li>
+            <li><a href="./contact.html" data-en="Request a consultation" data-es="Solicita una consulta">Request a consultation</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="ft-bottom hairline">
+        <span>© <span data-year>2025</span> Green Street Holdings. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></span>
+        <span data-en="Strategic investments · Latin America" data-es="Inversiones estratégicas · América Latina">Strategic investments · Latin America</span>
+      </div>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="./assets/js/site.js?v=9"></script>
 </body>
 </html>
