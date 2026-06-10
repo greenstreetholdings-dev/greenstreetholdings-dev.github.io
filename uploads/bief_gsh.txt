@@ -1,0 +1,92 @@
+Company: Green Street Holdings
+Domain: greenstreet-holding.com
+Current State: Static HTML site (4 pages: home, about, services, contact)
+Goal: Modern, professional, investment-grade aesthetic that conveys trust & growth
+
+Brand Context
+
+- Mission: Strategic acquisitions and investments for small/medium businesses in Latin America
+- Founders: Lucho Escobedo (McKinsey, data/strategy background) + Carol Burga (forestry/impact investing)
+- Services: Full acquisitions, partial ownership, minority investments, capital, advisory
+- Audience: Entrepreneurs seeking capital + partnership; institutional investors; business owners
+
+Current Problems
+
+- Dated, generic design
+- No visual differentiation
+- Weak brand presence
+- Generic service cards
+- Poor visual hierarchy
+
+Design Direction (Reference)
+
+Aesthetic Level: Benchmark against:
+- Brookfield Asset Management (greenfield.brookfield.com) — institutional, professional, trust-forward
+- KKR corporate site — clean, modern, confident
+- Blackstone's investment site — elegant typography, sophisticated color use
+
+Key Attributes:
+- Sophisticated, not flashy — understated premium feel
+- Green as primary (but elevated, not generic)
+- Modern typography — elegant sans-serif or serif/sans
+- Breathing room — white space, clean layout
+- Trust signals — professional photography, clear messa
+- Professional animations — subtle, not distracting
+
+Must-Have Sections
+
+1. Hero — Bold statement about transformation/partnership
+  - High-quality hero image (business/growth related)
+  - Clear value prop above the fold
+  - CTA to learn more or contact
+2. Services Grid — 5-6 service cards
+  - Icon or small image per service
+  - Concise description (not wordy)
+  - Modern card design (shadow, spacing, hover)
+3. About Founders — Side-by-side founder cards
+  - High-quality headshots
+  - Name, title, credential highlights
+  - Short bio emphasizing track record
+4. Investment Philosophy/Approach — Why partner with GSH
+  - Visual timeline or process diagram
+  - Key principles
+  - Risk/return positioning
+5. Portfolio Section (optional but recommended)
+  - Recent acquisitions or case studies
+  - Visual thumbnails
+  - Brief impact statement
+6. CTA Section — "Let's Build Together"
+  - Strong call-to-action
+  - Contact form integration
+  - Clear next steps
+
+Technical Constraints
+
+- Static site (HTML/CSS/JS only)
+- GitHub Pages deployment
+- Must stay responsive (mobile-first if possible)
+- Keep existing domain (greenstreet-holding.com)
+- Can use modern libraries (Tailwind, GSAP for animatio
+
+Color Guidance
+
+- Primary: Deep forest green (trust, growth, stability)
+- Secondary: Gold/bronze accent (premium, investment-grade)
+- Tertiary: Cream/off-white backgrounds (elegance)
+- Typography: Dark grays/charcoal (readability)
+- Avoid: Bright colors, excessive contrast, generic web
+
+Deliverables Wanted
+
+1. Complete HTML/CSS redesign (or Figma mockup)
+2. Mobile-responsive design (tested at 375px, 768px, 1440px)
+3. Component library (buttons, cards, forms)
+4. Clear setup for future updates
+5. Performance optimized (fast load, Core Web Vitals)
+
+Brand Voice
+
+- Professional, poised, understated confidence
+- Not salesy or aggressive
+- Emphasis on partnership, expertise, long-term thinkin
+- Latin American perspective (not just US-centric)
